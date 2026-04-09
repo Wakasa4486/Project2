@@ -1,0 +1,99 @@
+nav{
+   position: absolute;
+    background-color: red;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 555px;
+    list-style: none;
+    margin: 0;   
+    height: 40px;   
+}
+
+.shop{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    justify-content: space-around;
+}
+
+.shop img{
+    width: 320px;
+    height: 320px;
+    
+}
+
+.shop p{
+    width: 550px;
+    
+}
+
+#count{
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    font-family: Helvetica, sans-serif;
+    background-color: orangered;
+    border-radius: 15px;
+}
+
+
+
+#countLabel{
+    text-align: center;
+}
+
+.button{
+    padding: 8px 10px;
+    font-size: 1em;
+    color: whitesmoke;
+    background-color: orangered;
+    cursor: pointer;
+    border-radius: 15px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.button:hover{
+    opacity: 0.5;
+}
+
+#buy{
+    display: block;
+    text-align: center;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+    top: 20px;
+    background-color: orangered;
+}
+
+#buy:hover{
+    opacity: 0.5;
+}
+
+.menu li{
+    transition:  0.5s ease;
+}
+
+.menu li:hover{
+    transform: scale(1.10);
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
